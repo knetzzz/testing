@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using Sqlite;
+namespace testing
+{
+    class student
+    {
+    CREATE TABLE Students(
+    StudentID INTEGER PRIMARY KEY AUTOINCREMENT,
+    FullName TEXT,
+    Age INTEGER,
+    Course TEXT,
+    YearLevel TEXT
+);
+    }
+}
