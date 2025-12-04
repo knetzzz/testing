@@ -40,6 +40,7 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label5
@@ -143,11 +144,21 @@
             label1.TabIndex = 12;
             label1.Text = "Full Name: ";
             // 
+            // button1
+            // 
+            button1.Location = new Point(327, 80);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 24;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // EditStudentForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(395, 291);
+            Controls.Add(button1);
             Controls.Add(label5);
             Controls.Add(btnCancel);
             Controls.Add(btnDelete);
@@ -180,5 +191,6 @@
         private Label label3;
         private Label label2;
         private Label label1;
+        private Button button1;
     }
 }
