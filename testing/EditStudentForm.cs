@@ -14,5 +14,10 @@ namespace testing
         {
             InitializeComponent();
         }
+
+        private void EditStudentForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
